@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="left-icons">
+                <li id="navbtn">
+                    <i class="fas fa-bars"></i>
+                </li>
+
+                <li id="logo">
+                    <i class="fab fa-youtube"></i>
+                    <span>Youtube</span>
+                </li>
+            </ul>
+
+            <div class="arama">
+                <input type="text" placeholder="arama">
+                <span class="aramabtn">
+                    <i class="fas fa-arama"></i>
+                </span>
+            </div>
+
+            <ul class="sağ-icons">
+                <li class="arama-icon">
+                    <i class="fas fa-arama"></i>
+                </li>
+
+                <li class="create">
+                    <svg viewBox="0 0 28 28" preserveAspectRatio="xMidYMid meet" focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                    <g class="style-scope yt-icon">
+                        <path
+                            d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z"
+                            class="style-scope yt-icon"></path>
+                    </g>
+                </svg>
+                </li>
+
+                <li class="uygulamalar">
+                    <i class="fas fa-th"></i>
+                </li>
+
+                <li class="zil">
+                    <i class="fas fa-bell"></i>
+                </li>
+
+                <li class="profil">
+                    <img src="./profile.jpg" alt="">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <section class="hero">
+        <div class="sidebar">
+            <ul class="left-icons">
+                <li id="navbtn_mobile">
+                    <i class="fas fa-bars"></i>
+                </li>
+
+                <li id="logo">
+                    <i class="fab fa-youtube"></i>
+                    <span>Youtube</span>
+                </li>
+            </ul>
+
+            <ul id="sidebar-content">
+                <li class="active trigger">
+                    <i class="fas fa-home"></i>
+                    <span>Ana Sayfa</span>
+                </li>
+
+                <li class="trigger">
+                    <i class="fas fa-fire"></i>
+                    <span>Trendler</span>
+                </li>
+
+                <li class="sub trigger">
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path
+                                d="M18.7 8.7H5.3V7h13.4v1.7zm-1.7-5H7v1.6h10V3.7zm3.3 8.3v6.7c0 1-.7 1.6-1.6 1.6H5.3c-1 0-1.6-.7-1.6-1.6V12c0-1 .7-1.7 1.6-1.7h13.4c1 0 1.6.8 1.6 1.7zm-5 3.3l-5-2.7V18l5-2.7z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                    <span>
+                        Abonelikler
+                    </span>
+                </li>
+
+                <li class="trigger">
+                    <svg viewBox="0 0 27 27" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="color: #555;pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path fill="none" d="M0 0h24v24H0z" class="style-scope yt-icon"></path>
+                            <path
+                                d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                    <span>Kitaplık</span>
+                </li>
+
+
+                <li>
+                    <i class="fas fa-history"></i>
+                    <span>Geçmiş</span>
+                </li>
+
+
+                <li>
+                    <svg viewBox="0 0 27 27" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="color: #555; pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path
+                                d="M18.4 5.6v12.8H5.6V5.6h12.8zm0-1.8H5.6a1.8 1.8 0 0 0-1.8 1.8v12.8a1.8 1.8 0 0 0 1.8 1.9h12.8a1.8 1.8 0 0 0 1.9-1.9V5.6a1.8 1.8 0 0 0-1.9-1.8z"
+                                class="style-scope yt-icon"></path>
+                            <path d="M10.2 9v6.5l5-3.2-5-3.2z" class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                    <span>Videolarınız</span>
+                </li>
+
+                <li>
+                    <i class="fas fa-clock"></i>
+                    <span>Daha Sonra İzle</span>
+                </li>
+            </ul>
+            <hr>
+            <h4 class="side-header">ABONELİKLER</h4>
+
+            <ul class="subscriptions">
+                <li>
+					<i class="fas fa-thumbs-up"></i>
+                    <span>Galatasaray</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Bilgisayar</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Haber Global</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Açık Beyin</span>
+                </li>
+            </ul>
+
+            <hr>
+
+            <h4 class="side-header">YOUTUBE'DAN DAHA FAZLA İÇERİK</h4>
+
+            <ul class="more">
+                <li>
+                    <i class="fas fa-heartbeat"></i>
+                    <span>Oyun</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Canlı</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Moda & Güzellik</span>
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Öğrenme</span>
+                </li>
+            </ul>
+
+            <hr>
+
+            <ul class="more">
+                <li>
+                    <i class="fas fa-cog"></i>
+                    <span>Ayarlar</span>
+                </li>
+                <li>
+                    <i class="fas fa-flag"></i>
+                    <span>İçerik bildirme </span>
+                </li>
+                <li>
+                    <i class="fas fa-question-circle"></i>
+                    <span>Yardım</span>
+                </li>
+                <li>
+                    <i class="fas fa-comment-alt"></i>
+                    <span>Geri bildirim gönder</span>
+                </li>
+            </ul>
+
+            <div class="sub-footer">
+                <span>Hakkında</span>
+                <span>Telif hakkı</span>
+                <span>Bize ulaşın</span>
+                <span>İçerik üreciler</span>
+                <span>Reklam verme</span>
+                <span>Geliştiriciler</span>
+            </div>
+
+
+            <div class="footer">
+                &copy; 2020 Google LLC
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi">
+							
+						</div>
+                        <div class="video-detay">
+                            <div class="title">The Queen’s Gambit'in Yaratım Süreci | Netflix
+
+                            </div>
+                            <div class="kanal">Netflix Türkiye</div>
+                            <div class="görüntülenme">20 B görüntülenme
+                                <span class="yüklenme">2gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">PostgreSQL Kurulumu [ Veritabanı ve SQL Dersleri ]
+
+                            </div>
+                            <div class="kanal">Yazılım Bilimi</div>
+                            <div class="görüntülenme">30 B görüntülenme 
+                                <span class="yüklenme">2gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">Konuşanlar 31. Bölüm
+
+                            </div>
+                            <div class="kanal">Konuşanlar</div>
+                            <div class="görüntülenme">40 B görüntülenme 
+                                <span class="yüklenme">6gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">Mucize Doktor 41. Bölüm 1. Fragmanı
+
+                            </div>
+                            <div class="kanal">FOX</div>
+                            <div class="görüntülenme">50 B görüntülenme 
+                                <span class="yüklenme">10gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">39-Asp.Net Mvc Dersleri-Veri Sıralama
+
+                            </div>
+                            <div class="kanal">Sadık Turan</div>
+                            <div class="görüntülenme">60 B görüntülenme 
+                                <span class="yüklenme">2hafta önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">Bir Hintli Gibi Programlama Anlattım
+
+                            </div>
+                            <div class="kanal">Engin Demiroğ</div>
+                            <div class="görüntülenme">70 B görüntülenme 
+                                <span class="yüklenme">3hafta önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">Eskişehir’i Hiç Böyle Bilmezdim 
+
+                            </div>
+                            <div class="kanal">Emre Durmuş</div>
+                            <div class="görüntülenme">260 B görüntülenme 
+                                <span class="yüklenme">4hafta önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">KAYBEDERSEN BALIKLA TOKADI YERSİN !! w/ Ali Biçim
+
+                            </div>
+                            <div class="kanal">Mesut Can Tomay</div>
+                            <div class="görüntülenme">1 M görüntülenme 
+                                <span class="yüklenme">1hafta önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">TELEFONLA İNSANLARI TROLLEDİK !! w/ Mesut Can Tomay
+
+                            </div>
+                            <div class="kanal">Ali Biçim</div>
+                            <div class="görüntülenme">850 B görüntülenme 
+                                <span class="yüklenme">2gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">Kaç parmak görüyorsun? 444 yıllık 4 tavsiye
+
+                            </div>
+                            <div class="kanal">Barış Özcan</div>
+                            <div class="görüntülenme">330 B görüntülenme 
+                                <span class="yüklenme">2gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">Yazılımcıyı istediği şirkete yerleştiren girişim (TalentGrid)
+
+                            </div>
+                            <div class="kanal">Çay Kahve İnsan</div>
+                            <div class="görüntülenme">4 B görüntülenme 
+                                <span class="yüklenme">3gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">ÇAKMA İPHONE SATMAYI DENEDİK!
+
+                            </div>
+                            <div class="kanal">Orkun Işıtmak</div>
+                            <div class="görüntülenme">2,2 M görüntülenme
+                                <span class="yüklenme">3gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">Testin ücretini kim ödeyecek?
+
+                            </div>
+                            <div class="kanal">Kanal D</div>
+                            <div class="görüntülenme">3 B görüntülenme
+                                <span class="yüklenme">5gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">Avrupa kupalarında atılan en güzel 40 gol - #Galatasaray
+
+                            </div>
+                            <div class="kanal">Galatasaray</div>
+                            <div class="görüntülenme">198 B görüntülenme
+                                <span class="yüklenme">2gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">Çukur 4. Sezon 14. Bölüm 2. Fragman | "Nerede kalmıştık?"
+
+                            </div>
+                            <div class="kanal">Show TV</div>
+                            <div class="görüntülenme"> 1.2 M görüntülenme
+                                <span class="yüklenme">9gün önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb"></div>
+                    <div class="detay">
+                        <div class="profil-resmi"></div>
+                        <div class="video-detay">
+                            <div class="title">Hasan Can Kaya Sosyal Medyadan Gelen Soruları Yanıtlıyor!
+
+                            </div>
+                            <div class="kanal">Onedio</div>
+                            <div class="görüntülenme">810 B görüntülenme 
+                                <span class="yüklenme">10saat önce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+    
+
+
+
+
+    <script src="https://kit.fontawesome.com/03e233b384.js" crossorigin="anonymous"></script>
+</body>
+</html>
