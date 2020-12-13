@@ -2,7 +2,7 @@
 ## BS435 Web Programlama 1 Dersi Vize Ödevi
 ### Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü  
 
-Tasarlayan: Çağrı DURMUŞ
+Tasarlayan: Çağrı DURMUŞ                                            
 Öğretim Üyesi: Dr. Fehim KÖYLÜ
 
 
