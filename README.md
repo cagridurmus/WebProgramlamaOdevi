@@ -29,8 +29,4 @@ Tasarlayan: Çağrı DURMUŞ
 
 # Kullanılan Yöntemler
 
- 1. Tasarım sistemleri
- 2. GraphQL
- 3. CI/CD
- 4. Test otomasyonu
- 5. Sunucusuz sistemler
+ 1.
