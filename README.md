@@ -24,7 +24,7 @@ Tasarlayan: Çağrı DURMUŞ
 
  1. VSCode
  2. Google Chrome
- 3. Notepad
+ 3. Notepad         
  4.Fotoğraflar
 
 # Kullanılan Yöntemler
